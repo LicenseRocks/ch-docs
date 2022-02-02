@@ -2,6 +2,10 @@
 label: Fetch data
 tags: [manage, nft]
 order: 3
+authors:
+  - name: Artur Chmaro
+    email: artur@licenserocks.de
+    link: https://twitter.com/ArtiChmaro
 ---
 # Fetch information about NFts
 

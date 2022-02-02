@@ -1,6 +1,10 @@
 ---
-label: Fetch data
+label: Marketplace data
 tags: [stats, marketplace, nft]
+authors:
+  - name: Artur Chmaro
+    email: artur@licenserocks.de
+    link: https://twitter.com/ArtiChmaro
 ---
 # Get data about your marketplace
 

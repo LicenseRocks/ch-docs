@@ -1,6 +1,8 @@
 input: ./
 output: .retype
 url: https://licenserocks.github.io/ch-docs/
+meta:
+  title: " | Home of creators"
 branding:
   title: CreatorsHub
   label: Docs

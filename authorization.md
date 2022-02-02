@@ -2,6 +2,10 @@
 label: Authorization
 icon: lock
 order: 1001
+authors:
+  - name: Artur Chmaro
+    email: artur@licenserocks.de
+    link: https://twitter.com/ArtiChmaro
 ---
 # Authorization
 

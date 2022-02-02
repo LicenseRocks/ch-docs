@@ -2,6 +2,10 @@
 label: Manage
 tags: [manage, nft]
 order: 4
+authors:
+  - name: Artur Chmaro
+    email: artur@licenserocks.de
+    link: https://twitter.com/ArtiChmaro
 ---
 # Manage your NFTs
 
