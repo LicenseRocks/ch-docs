@@ -1,6 +1,6 @@
-input: .
+input: ./
 output: .retype
-url: # Add your website address here
+url: https://licenserocks.github.io/ch-docs/
 branding:
   title: CreatorsHub
   label: Docs
@@ -18,3 +18,6 @@ footer:
     - text: About us
       link: https://license.rocks
       target: blank
+
+edit:
+  repo: github.com/LicenseRocks/ch-docs
