@@ -5,6 +5,7 @@ order: 5
 authors:
   - name: Artur Chmaro
     email: artur@licenserocks.de
+    avatar: ../static/artur.jpeg
     link: https://twitter.com/ArtiChmaro
 ---
 # Mint new NFTs

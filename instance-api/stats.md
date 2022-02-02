@@ -4,6 +4,7 @@ tags: [stats, marketplace, nft]
 authors:
   - name: Artur Chmaro
     email: artur@licenserocks.de
+    avatar: ../static/artur.jpeg
     link: https://twitter.com/ArtiChmaro
 ---
 # Get data about your marketplace
