@@ -7,23 +7,23 @@
     <meta name="turbo-cache-control" content="no-cache">
 
     <!-- Primary Meta Tags -->
-    <title>CreatorsHub Widgets | Home of creators</title>
-    <meta name="title" content="CreatorsHub Widgets | Home of creators">
-    <meta name="description" content="Would you like to showoff your NFTs on any website in the world? Try our widgets." />
+    <title>Rockskit | Home of creators</title>
+    <meta name="title" content="Rockskit | Home of creators">
+    <meta name="description" content="If you are seeking a custom style for your project, you can use licenserocks's Rockskit." />
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://licenserocks.github.io/ch-docs/widgets/intro/">
-    <meta property="og:title" content="CreatorsHub Widgets | Home of creators">
-    <meta property="og:description" content="Would you like to showoff your NFTs on any website in the world? Try our widgets.">
-    <meta property="og:image" content="https://licenserocks.github.io/ch-docs/ch-docs/static/tokens-docs.png">
+    <meta property="og:url" content="https://licenserocks.github.io/ch-docs/rockskit/intro/">
+    <meta property="og:title" content="Rockskit | Home of creators">
+    <meta property="og:description" content="If you are seeking a custom style for your project, you can use licenserocks's Rockskit.">
+    <meta property="og:image" content="https://licenserocks.github.io/ch-docs/ch-docs/static/logo.png">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://licenserocks.github.io/ch-docs/widgets/intro/">
-    <meta property="twitter:title" content="CreatorsHub Widgets | Home of creators">
-    <meta property="twitter:description" content="Would you like to showoff your NFTs on any website in the world? Try our widgets.">
-    <meta property="twitter:image" content="https://licenserocks.github.io/ch-docs/ch-docs/static/tokens-docs.png">
+    <meta property="twitter:url" content="https://licenserocks.github.io/ch-docs/rockskit/intro/">
+    <meta property="twitter:title" content="Rockskit | Home of creators">
+    <meta property="twitter:description" content="If you are seeking a custom style for your project, you can use licenserocks's Rockskit.">
+    <meta property="twitter:image" content="https://licenserocks.github.io/ch-docs/ch-docs/static/logo.png">
     
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("/ch-docs/doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
@@ -200,10 +200,10 @@
                 <div id="docs-sidebar-right-toggle"></div>
                
                 <!-- Page content  -->
-<doc-anchor-target id="creatorshub-widgets" class="break-words">
+<doc-anchor-target id="rockskit" class="break-words">
     <h1>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#creatorshub-widgets">#</doc-anchor-trigger>
-        <span>CreatorsHub Widgets</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#rockskit">#</doc-anchor-trigger>
+        <span>Rockskit</span>
     </h1>
 </doc-anchor-target>
 <div class="-mt-3 mb-12 flex flex-wrap text-sm text-gray-400 dark:text-dark-350">
@@ -218,10 +218,9 @@
     </div>
 </div>
 
-<p>Would you like to showoff your NFTs on any website in the world?
-Try our widgets.
+<p>If you are seeking a custom style for your project, you can use licenserocks&#x27;s Rockskit.
 <figure class="content-center">
-    <img src="../../static/tokens-docs.png" alt="" />
+    <img src="../../static/logo.png" alt="" />
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
@@ -231,57 +230,231 @@ Try our widgets.
         <span>What is it?</span>
     </h2>
 </doc-anchor-target>
-<p>CreatorsHub widget is created to perform embeddable components from creatorsHub, such as NFT item. You can easily add HTML tags to embed your favourites nft&#x27;s in custom page, with our styles.</p>
-<doc-anchor-target id="how-to-use-it">
+<p>RocksKit is a license.rocks GmbH design system components for React.js.</p>
+<p>As there are multiple projects in the company, which all of them are sharing the same design, we decided to have a component library to be used across all of those projects, so that it is possible to keep consistency along them.</p>
+<doc-anchor-target id="main-librariestechnologies-used-in-rockskit">
     <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#how-to-use-it">#</doc-anchor-trigger>
-        <span>How to use it?</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#main-librariestechnologies-used-in-rockskit">#</doc-anchor-trigger>
+        <span>Main libraries/technologies used in Rockskit:</span>
     </h2>
 </doc-anchor-target>
-<p>Below is presented an example fo html tags that are required to embed nft item. It will import attached nft:
+<p>Below you can find main libraries/technologies which we have used in Rockskit. All other libraries are used by basing on design needs. Moreover, there are examples (stories) for almost all components&#x27;s usage in Storybook, and if not, you can find usage in one of the projects, in which they are used (CreatorsHub or MetaProof).
 <figure class="content-center">
-    <img src="../../static/token.png" alt="" />
+    <img src="../../static/storybook.png" alt="" />
+    <figcaption class="caption"></figcaption>
+</figure>
+<figure class="content-center">
+    <img src="../../static/rhf.png" alt="" />
+    <figcaption class="caption"></figcaption>
+</figure>
+<figure class="content-center">
+    <img src="../../static/styled-components.png" alt="" />
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
+<ul>
+<li>Storybook <span class="docs-emoji">&#x1F449;</span> Shortly, it is a development playground. We use it as an environment for components development. Also we build and deploy it to Github Pages as a showcase for the components we have.</li>
+<li>Styled-Components <span class="docs-emoji">&#x1F449;</span> CSS-in-JS library which we use to make style neatly arranged through every component</li>
+<li>Material-UI <span class="docs-emoji">&#x1F449;</span> Most of the components are built on top of MUI, it lets us save significant amount of time, since we do not need to write everything from scratch</li>
+<li>React-Hook-Form <span class="docs-emoji">&#x1F449;</span> Form elements are implemented in a way to be compatible with RHF, as it&#x27;s one of the best form libraries for React.</li>
+</ul>
+<doc-anchor-target id="how-to-use-rockskit">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#how-to-use-rockskit">#</doc-anchor-trigger>
+        <span>How to use RocksKit? <span class="docs-emoji">&#x1F3AE;</span></span>
+    </h2>
+</doc-anchor-target>
+<ol>
+<li>Like you do for any other JS lib or package, just run <code v-pre>yarn add @licenserocks/kit</code></li>
+<li>Import the chosen component and use it in your application, below is represented the example usage of <code v-pre>Flex</code> component</li>
+</ol>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-markup"><code v-pre class="language-markup">&lt;div
-  id=&quot;item&quot;
-  data-item-type=&quot;NFT&quot;
-  data-item-id=&quot;120&quot;
-  data-app-url=&quot;https://preview-creatorshub.license.rocks&quot;
-  class=&quot;nft-item&quot;
-&gt;&lt;/div&gt;
+<pre class="language-jsx"><code v-pre class="language-jsx">import React from &quot;react&quot;;
+import { Flex } from &quot;@licenserocks/kit&quot;;
 
-&lt;link
-  href=&quot;https://licenserocks.github.io/creators-hub-widgets/main.css&quot;
-  rel=&quot;stylesheet&quot;
-/&gt;
-&lt;script src=&quot;https://licenserocks.github.io/creators-hub-widgets/main.js&quot;&gt;&lt;/script&gt;</code></pre>
+export const App = () =&gt; {
+  return (
+    &lt;Flex container spacing={8}&gt;
+      {/* Some content */}
+    &lt;/Flex&gt;
+  );
+};</code></pre>
 </doc-codeblock></div>
-<p>Represented <code v-pre>link</code> and <code v-pre>script</code> tags are needed to import dependencies from hosted and built repository. It allows to specify <code v-pre>div</code> with proper atributes, which will show correct nft with concrete style</p>
+<p><span class="docs-emoji">&#x1F4DD;</span> Good practce: Visit a storybook for this project, and check which props you can pass to custom component.
+<span class="docs-emoji">&#x1F447;</span> <a href="https://licenserocks.github.io/rockskit/">https://licenserocks.github.io/rockskit/</a></p>
+<doc-anchor-target id="customizations">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#customizations">#</doc-anchor-trigger>
+        <span>Customizations <span class="docs-emoji">&#x270D;&#xFE0F;</span></span>
+    </h2>
+</doc-anchor-target>
+<p>We have a pre-defined theme object in Rockskit, which is based on the License Rocks design system. It has pre-defined colors, fonts, font sizes, etc; and can be overriden in any project which RocksKit is used. We can replace colors and fonts easily just by modifying this object and no other pain.</p>
+<doc-anchor-target id="how-to-go-through-process-of-builiding-and-packaging-rockskit">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#how-to-go-through-process-of-builiding-and-packaging-rockskit">#</doc-anchor-trigger>
+        <span>How to go through process of builiding and packaging RocksKit? <span class="docs-emoji">&#x1F9D1;</span><span class="docs-emoji">&#x1F3FB;</span>‍<span class="docs-emoji">&#x1F4BB;</span></span>
+    </h2>
+</doc-anchor-target>
+<p>We use Rollup for this process. It is configured in a way to use Babel to transpile the code and export the package in two formats: ESModules and CommonJS.
+All exports in the project are named export. (they can be improved later to enhance Tree Shaking)</p>
+<p>Now imagine we want to update a code in one of the components:</p>
+<ol>
+<li>Update the component code and make sure everything is working, at least in Storybook. If needed, update the code of component story in <code v-pre>stories.js</code> file.</li>
+<li>Update tests by running <code v-pre>yarn test:snapshot:update</code></li>
+<li>Begin the building process by running <code v-pre>yarn build</code> and make sure, that build phase passes successfully and we have updated files in <code v-pre>dist</code> directory.</li>
+<li>Update the version of package either manually or using <code v-pre>npm version</code> (better to do it manually).</li>
+<li>Make sure you have an access to @licenserocks packages using your npm account, then run <code v-pre>npm login</code> to complete authentication process.</li>
+<li>Now run <code v-pre>npm publish</code>. Keep in mind that you should have configured your npm CLI before running this command. Then use <code v-pre>npm login</code> to login into your account. For more information about how to login to NPM, visit this link: <a href="https://docs.npmjs.com/logging-in-to-an-npm-enterprise-registry-from-the-command-line">https://docs.npmjs.com/logging-in-to-an-npm-enterprise-registry-from-the-command-line</a> .</li>
+<li>Commit your changes and push to Github repository.</li>
+</ol>
+<p>That&#x27;s all!<span class="docs-emoji">&#x1F680;</span></p>
+<doc-anchor-target id="running-rockskit-locally">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#running-rockskit-locally">#</doc-anchor-trigger>
+        <span>Running Rockskit Locally <span class="docs-emoji">&#x1F3E1;</span></span>
+    </h2>
+</doc-anchor-target>
+<p>To run Rockskit with full view through storybook on localhost, follow steps below <span class="docs-emoji">&#x1F447;</span></p>
+<ol>
+<li>Clone repo to your machine, by running <code v-pre>git clone &lt;remote url&gt;</code></li>
+<li>Install dependencies by running <code v-pre>yarn</code></li>
+<li>Run on your local by <code v-pre>yarn start-storybook</code></li>
+</ol>
+<p>You can start creating new components now <span class="docs-emoji">&#x1F609;</span></p>
+<doc-anchor-target id="testing">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#testing">#</doc-anchor-trigger>
+        <span>Testing <span class="docs-emoji">&#x1F4C8;</span></span>
+    </h2>
+</doc-anchor-target>
+<p>You can run tests by command <code v-pre>yarn test</code></p>
+<p><code v-pre>yarn test</code> command looks for all files with <code v-pre>*.stories.js</code> in the project and creates snapshots of them, which are stored in <code v-pre>__snapshots__</code> folder.</p>
+<p><span class="docs-emoji">&#x26A0;&#xFE0F;</span> Remember to update tests after making changes in the project <code v-pre>yarn test:snapshot:update</code> <span class="docs-emoji">&#x26A0;&#xFE0F;</span></p>
+<doc-anchor-target id="configuration">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#configuration">#</doc-anchor-trigger>
+        <span>Configuration <span class="docs-emoji">&#x2699;&#xFE0F;</span></span>
+    </h2>
+</doc-anchor-target>
+<p>If it is super important to change some configurations for Babel or Rollup, it can be done carefully by editing <code v-pre>rollup.config.js</code> and <code v-pre>babel.config.js</code> files.</p>
+<doc-anchor-target id="good-practices">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#good-practices">#</doc-anchor-trigger>
+        <span>Good practices <span class="docs-emoji">&#x1F60D;</span></span>
+    </h2>
+</doc-anchor-target>
+<p>It is extremely important to follow some good habits in Rockskit developing process:</p>
+<ol>
+<li>Make sure that a component which you create is &quot;reusable&quot;. It means, that it should not be used only once for the specific part of an app. Those kinds of components is better to implement inside of a project, in which it could be imported. This way, it’s easier to develop and debug the component and there is no need to update and publish entire RocksKit. On the other hand, if there will be a need to use this concrete component in multiple ways, we can easily copy and paste the code from the project into Rockskit and publish it.</li>
+<li>Before implementing any new component, it is crucial to conscientiously go through others &quot;ready&quot; components in codebase. Most of the components are already implemented, if it is possible, always try build new one from existing ones. Example is presented below <span class="docs-emoji">&#x1F447;</span></li>
+</ol>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-markup"><code v-pre class="language-markup">&lt;link
-  href=&quot;https://licenserocks.github.io/creators-hub-widgets/main.css&quot;
-  rel=&quot;stylesheet&quot;
-/&gt;
-&lt;script src=&quot;https://licenserocks.github.io/creators-hub-widgets/main.js&quot;&gt;&lt;/script&gt;</code></pre>
+<pre class="language-jsx"><code v-pre class="language-jsx">import React from &quot;react&quot;;
+// Existing components and Typography used to build new one
+import { Icon, Button, H5 } from &quot;..&quot;;
+
+export const Alert = ({ content, text, buttonContent, ...props }) =&gt; {
+  const StyledMessage = styled.div`
+    width: 100%;
+    display: flex;
+    align-items: center;
+  `;
+
+  return (
+    &lt;StyledMessage {...props}&gt;
+      &lt;Icon icon=&quot;info-circle&quot; mr={2} /&gt;
+      &lt;H5 content={text} /&gt;
+      &lt;Button size={&quot;sm&quot;} content={buttonContent} /&gt;
+    &lt;/StyledMessage&gt;
+  );
+};</code></pre>
 </doc-codeblock></div>
-<p>Below is presented a div which generate in custom page an nft with <code v-pre>id=120</code>. To import styles and data properly, it is required to use attributes:
-id=&quot;item&quot;
-data-item-type=&quot;NFT&quot;
-data-item-id=&quot;120&quot; - id of nft which you want to embed
-data-app-url=&quot;https://preview-licenserocks.de&quot; - url of an instance from which we take nft data
-class=&quot;nft-item&quot;</p>
+<p>In this simple example, we built an <code v-pre>Alert</code> using existing <code v-pre>Icon</code>, <code v-pre>Button</code> components and also ready <code v-pre>H5</code> Typography. It is the most optimal way of implementing new stuff <span class="docs-emoji">&#x1F609;</span></p>
+<ol start="4">
+<li><code v-pre>${(theme) =&gt; SPACER(theme)} / ${(theme) =&gt; DISPLAY(theme)}</code> should be used only on the styles of the top level components (the component which is finally exported from RocksKit). It is crucial, because they are responsible for adding paddings, margins and displays to the top level component just by passing props to it. In example below is represented an Alert component <span class="docs-emoji">&#x1F447;</span></li>
+</ol>
 <div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-markup"><code v-pre class="language-markup">&lt;div
-  id=&quot;item&quot;
-  data-item-type=&quot;NFT&quot;
-  data-item-id=&quot;120&quot;
-  data-app-url=&quot;https://preview-creatorshub.license.rocks&quot;
-  class=&quot;nft-item&quot;
-&gt;&lt;/div&gt;</code></pre>
+<pre class="language-jsx"><code v-pre class="language-jsx">import React from &quot;react&quot;;
+import styled, { useTheme } from &quot;styled-components&quot;;
+import { DISPLAY, SPACER } from &quot;..&quot;;
+
+const StyledMessage = styled.div`
+  width: 100%;
+  display: flex;
+  align-items: center;
+
+  ${(theme) =&gt; SPACER(theme)}
+  ${(theme) =&gt; DISPLAY(theme)}
+`;
+
+export const Alert = ({ content, children, ...props }) =&gt; {
+  const theme = useTheme();
+
+  return &lt;StyledMessage {...props}&gt;{content || children}&lt;/StyledMessage&gt;;
+};</code></pre>
 </doc-codeblock></div>
+<p>In this case, when we import an <code v-pre>Alert</code> component, we can <code v-pre>add margin-bottom</code> by passing a prop <code v-pre>&lt;Alert mb={2} /&gt;</code>, which leads in this scenario to a margin-bottom of 8px, because 2 is multiplied with our standard spacing multiplier which is 4 (2x4=8).</p>
+<ol start="6">
+<li>Try to have different properties which will be stored in database always in lowercase, so that it can be easier and more performant to use them.</li>
+<li>Always use <code v-pre>theme</code> variables for colors, fonts, margins, paddings, etc. There are lots of customizations and all of theme are based on these variables. Below is shown example of styling part <span class="docs-emoji">&#x1F447;</span></li>
+</ol>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-jsx"><code v-pre class="language-jsx">import React from &quot;react&quot;;
+import styled, { useTheme } from &quot;styled-components&quot;;
+
+const StyledItem = styled.div`
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background: ${({ theme }) =&gt; theme.palette.gray.semiLight};
+
+  ${(theme) =&gt; SPACER(theme)}
+  ${(theme) =&gt; DISPLAY(theme)}
+`;</code></pre>
+</doc-codeblock></div>
+<p><code v-pre>background</code> is defined by using <code v-pre>theme</code> variable, you can find those variables in <code v-pre>/src/theme</code></p>
+<ol start="9">
+<li>Name new components wisely, these created as parents as well as these created as children using Styled-Components.</li>
+<li>Create example data and pass them as props in proper <code v-pre>stories.js</code> file. Example for <code v-pre>Footer</code> is presented below <span class="docs-emoji">&#x1F447;</span></li>
+</ol>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-jsx"><code v-pre class="language-jsx">import React, { useState } from &quot;react&quot;;
+import { StoryWrapper } from &quot;../../.storybook/decorators&quot;;
+// Components
+import { Footer } from &quot;./Footer&quot;;
+
+export default {
+  title: &quot;App&quot;,
+  component: App,
+  decorators: [StoryWrapper],
+};
+
+// data for footer
+const data = [
+  {
+    id: 1,
+    status: &quot;required&quot;,
+  },
+  {
+    id: 2,
+    status: &quot;optional&quot;,
+  },
+];
+
+const BaseComponent = (props) =&gt; {
+  return (
+    &lt;&gt;
+      &lt;Footer data={data} /&gt;
+    &lt;/&gt;
+  );
+};
+
+export const main = () =&gt; &lt;BaseComponent /&gt;;</code></pre>
+</doc-codeblock></div>
+<ol start="11">
+<li>Adding new icons</li>
+</ol>
+<p>Considering size and performance reasons, it is possible to use only icons which are added in <code v-pre>theme/icons/solid.js</code>. If there is a need to use not available icon, just import it from <code v-pre>FontAwesome library</code> into mentioned above <code v-pre>solid.js</code> file</p>
 
 
 <div class="flex items-center mt-6 mb-6">
@@ -289,11 +462,8 @@ class=&quot;nft-item&quot;</p>
         <a href="/ch-docs/tags/">
             <svg class="inline-block -mb-px mr-1.5 text-blue-500 dark:text-blue-400" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" overflow="visible" fill="currentColor"><g><path d="M21.3 9.88l-8.59-8.59C12.52 1.11 12.27 1 12 1H2c-.55 0-1 .45-1 1v10c0 .27.11.52.29.71l8.59 8.58c.57.57 1.32.88 2.12.88s1.55-.31 2.12-.88l7.17-7.17a3.009 3.009 0 00.01-4.24zm-1.42 2.82l-7.17 7.17c-.39.39-1.02.39-1.42 0L3 11.59V3h8.59l8.29 8.29c.39.39.39 1.03 0 1.41z" /><path d="M7.01 6C6.45 6 6 6.45 6 7s.45 1 1 1 1-.45 1-1-.44-1-.99-1z" /></g></svg>
         </a>
-        <span class="mr-2"><a href="/ch-docs/tags/widgets/" class="no-link inline-flex items-center justify-center font-medium leading-none whitespace-nowrap text-blue-500 dark:text-blue-400 border border-blue-500 dark:border-blue-400 hover:bg-blue-100 dark:hover:bg-transparent dark:hover:border-blue-200 dark:hover:text-blue-200 transition-colors duration-200 ease-out h-6 px-2 text-xs rounded-md">
-    <span>widgets</span>
-</a></span>
-        <span class="mr-2"><a href="/ch-docs/tags/nft/" class="no-link inline-flex items-center justify-center font-medium leading-none whitespace-nowrap text-blue-500 dark:text-blue-400 border border-blue-500 dark:border-blue-400 hover:bg-blue-100 dark:hover:bg-transparent dark:hover:border-blue-200 dark:hover:text-blue-200 transition-colors duration-200 ease-out h-6 px-2 text-xs rounded-md">
-    <span>nft</span>
+        <span class="mr-2"><a href="/ch-docs/tags/style/" class="no-link inline-flex items-center justify-center font-medium leading-none whitespace-nowrap text-blue-500 dark:text-blue-400 border border-blue-500 dark:border-blue-400 hover:bg-blue-100 dark:hover:bg-transparent dark:hover:border-blue-200 dark:hover:text-blue-200 transition-colors duration-200 ease-out h-6 px-2 text-xs rounded-md">
+    <span>style</span>
 </a></span>
     </span>
 </div>
@@ -304,7 +474,7 @@ class=&quot;nft-item&quot;</p>
             </div>
 
             <div class="flex flex-wrap items-center justify-between mt-14">
-    <a class="my-2.5 inline-flex items-center text-sm whitespace-nowrap text-blue-500 dark:text-blue-400 hover:text-blue-700 hover:underline" href="https://github.com/LicenseRocks/ch-docs/blob/main/widgets/intro.md" target="_blank" rel="noopener">
+    <a class="my-2.5 inline-flex items-center text-sm whitespace-nowrap text-blue-500 dark:text-blue-400 hover:text-blue-700 hover:underline" href="https://github.com/LicenseRocks/ch-docs/blob/main/rockskit/intro.md" target="_blank" rel="noopener">
         <svg class="mr-1.5" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M20 12c-.55 0-1 .45-1 1v7c0 .55-.45 1-1 1H4c-.55 0-1-.45-1-1V6c0-.55.45-1 1-1h7c.55 0 1-.45 1-1s-.45-1-1-1H4C2.35 3 1 4.35 1 6v14c0 1.65 1.35 3 3 3h14c1.65 0 3-1.35 3-3v-7c0-.55-.45-1-1-1z" /><path d="M22.21 1.79c-1.18-1.18-3.24-1.18-4.41 0l-9.5 9.5c-.13.13-.22.29-.26.46l-1 4c-.08.34.01.7.26.95.18.2.44.3.7.3.08 0 .16-.01.24-.03l4-1c.18-.04.34-.13.46-.26l9.5-9.5c1.22-1.22 1.22-3.2.01-4.42zm-1.42 3l-9.3 9.3-2.11.53.53-2.11 9.3-9.3c.42-.42 1.16-.42 1.59 0 .43.43.43 1.15-.01 1.58z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
         <span>Edit this page</span>
     </a>
@@ -314,16 +484,23 @@ class=&quot;nft-item&quot;</p>
 
 <nav class="flex mt-14">
     <div class="w-1/2">
-        <a class="px-5 py-4 h-full flex items-center break-all md:break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-r rounded-l-lg transition-colors duration-150 relative hover:z-5" href="/ch-docs/rockskit/intro/">
+        <a class="px-5 py-4 h-full flex items-center break-all md:break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-l-lg transition-colors duration-150 relative hover:z-5" href="/ch-docs/megaflow/intro/">
             <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
             <span>
                 <span class="block text-xs font-normal text-gray-400 dark:text-dark-400">Previous</span>
-                <span class="block mt-1">Rockskit Basics</span>
+                <span class="block mt-1">Basics</span>
             </span>
         </a>
     </div>
 
     <div class="w-1/2">
+        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-all md:break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-r-lg transition-colors duration-150 relative hover:z-5" href="/ch-docs/widgets/intro/">
+            <span>
+                <span class="block text-xs font-normal text-right text-gray-400 dark:text-dark-400">Next</span>
+                <span class="block mt-1">Intro</span>
+            </span>
+            <svg xmlns="http://www.w3.org/2000/svg" class="ml-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
+        </a>
     </div>
 </nav>
 
@@ -371,6 +548,6 @@ class=&quot;nft-item&quot;</p>
 
         <div id="docs-overlay-target"></div>
 
-        <script>window.__DOCS__ = { "title": "Intro", icon: "file", hasPrism: true, hasMermaid: false, hasMath: false }</script>
+        <script>window.__DOCS__ = { "title": "Rockskit Basics", icon: "file", hasPrism: true, hasMermaid: false, hasMath: false }</script>
     </body>
 </html>
