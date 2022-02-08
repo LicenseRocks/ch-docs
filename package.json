@@ -8,5 +8,9 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "retype": "^0.2.0",
+    "retypeapp-linux-x64": "^1.11.2"
+  }
 }
