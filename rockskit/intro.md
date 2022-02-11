@@ -1,7 +1,7 @@
 ---
 label: Rockskit Basics
 tags: [style]
-order: 5
+order: 7
 authors:
   - name: Kacper Hernacki
     email: kacper@licenserocks.de

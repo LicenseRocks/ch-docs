@@ -1,7 +1,7 @@
 ---
 label: Basics
 tags: [style]
-order: 6
+order: 8
 authors:
   - name: Kacper Hernacki
     email: kacper@licenserocks.de
