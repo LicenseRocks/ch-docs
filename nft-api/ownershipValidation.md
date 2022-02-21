@@ -31,7 +31,8 @@ You have to pass data which examples are listed below
     "nftId": 123,
     "publicAddr": "0xcc0D1aC7Ec5E09ef11373EF76590EA9942392794",
     "network": "mumbaiTestnet",
-    "contractAddress": "0x608a1CDBf0207fBC9c3e5C33bb6Ba1d9cb003613"
+    "contractAddress": "0x608a1CDBf0207fBC9c3e5C33bb6Ba1d9cb003613",
+    "abiCode": "erc1155"
   }
 ]
 ```
