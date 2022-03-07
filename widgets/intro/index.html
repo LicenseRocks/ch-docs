@@ -26,12 +26,12 @@
     
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="/resources/css/retype.css?v=1.11.2.699482214375" rel="stylesheet" data-turbo-track="reload" />
+    <link href="/resources/css/retype.css?v=1.11.2.699976806189" rel="stylesheet" data-turbo-track="reload" />
 
-    <script type="text/javascript" src="/resources/js/config.js?v=1.11.2.699482214375" defer data-turbo-track="reload"></script>
+    <script type="text/javascript" src="/resources/js/config.js?v=1.11.2.699976806189" defer data-turbo-track="reload"></script>
     <script type="text/javascript" src="/resources/js/retype.js?v=1.11.2" defer data-turbo-track="reload"></script>
-    <script id="lunr-js" type="text/javascript" src="/resources/js/lunr.js?v=1.11.2.699482214375" defer></script>
-    <script id="prism-js" type="text/javascript" src="/resources/js/prism.js?v=1.11.2.699482214375" defer></script>
+    <script id="lunr-js" type="text/javascript" src="/resources/js/lunr.js?v=1.11.2.699976806189" defer></script>
+    <script id="prism-js" type="text/javascript" src="/resources/js/prism.js?v=1.11.2.699976806189" defer></script>
 </head>
     <body>
         <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -267,11 +267,12 @@ Try our widgets.
 &lt;script src=&quot;https://licenserocks.github.io/creators-hub-widgets/main.js&quot;&gt;&lt;/script&gt;</code></pre>
 </doc-codeblock></div>
 <p>Below is presented a div which generate in custom page an nft with <code v-pre>id=120</code>. To import styles and data properly, it is required to use attributes:
-id=&quot;item&quot;
-data-item-type=&quot;NFT&quot;
-data-item-id=&quot;120&quot; - id of nft which you want to embed
-data-app-url=&quot;https://preview-licenserocks.de&quot; - url of an instance from which we take nft data
-class=&quot;nft-item&quot;</p>
+<code v-pre>id=&quot;item&quot;</code>
+<code v-pre>data-item-type=&quot;NFT&quot;</code>
+<code v-pre>data-item-id=&quot;120&quot;</code> - id of nft which you want to embed
+<code v-pre>data-app-url=&quot;https://preview-licenserocks.de&quot;</code> - url of an instance from which we take nft data
+<code v-pre>class=&quot;nft-item&quot;</code></p>
+<p>Moreover, you can specify the sizes of an NFT, by providing props <code v-pre>data-width</code> and <code v-pre>data-height</code>. Please remember, that according to our design, token can not be lower than <code v-pre>492px</code> and narrower than <code v-pre>275px</code>. These are minimal, default props of the NFT card.</p>
 <div class="codeblock-wrapper"><doc-codeblock>
 <pre class="language-markup"><code v-pre class="language-markup">&lt;div
   id=&quot;item&quot;
@@ -279,6 +280,8 @@ class=&quot;nft-item&quot;</p>
   data-item-id=&quot;120&quot;
   data-app-url=&quot;https://preview-creatorshub.license.rocks&quot;
   class=&quot;nft-item&quot;
+  data-width=&quot;300&quot;
+  data-height=&quot;500&quot;
 &gt;&lt;/div&gt;</code></pre>
 </doc-codeblock></div>
 
