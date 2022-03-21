@@ -9,7 +9,7 @@ authors:
     avatar:
 ---
 
-In order to refresh Discord server info _(avatar, name, ...)_ available on your **CreatorsHub** instance we got your covered. You simply need to execute `/refresh` command. 
+In order to refresh Discord server info _(avatar, name, ...)_ available on your **CreatorsHub** instance we got your covered. You simply need to execute `/refresh` command.
 !!!info
 
 the `/refresh` command can only be used by guild members with either **Administrator** permission or **Guild Owner** status.
@@ -21,7 +21,7 @@ To begin, please navigate to any channel where bot has permissions to view messa
 Now, the `/refresh` command accepts two parameters:
 
 - `creators-hub-url`, which is base URL[^1] of your **CreatorsHub** instance.
-- `creators-hub-secret`, which is secret key used for verification that you're authorized to refresh the **CreatorsHub** info.
+- `creators-hub-secret`, which is secret key used for verification that you're authorized to refresh the **CreatorsHub** info. The secret key can be obtained from [license.rocks](https://license.rocks) support team after setting up the instance.
 
 !!!secondary :bulb: **Tip**
 
