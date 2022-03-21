@@ -1,7 +1,7 @@
 ---
 label: Introduction
 tags: [discord, nft, integration]
-order: 4
+order: 6
 authors:
   - name: Igor Klepacki
     email: igor@licenserocks.de
