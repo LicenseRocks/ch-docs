@@ -6,18 +6,21 @@
     <meta name="turbo-cache-control" content="no-cache">
 
     <!-- Primary Meta Tags -->
-    <title>widgets | Home of creators</title>
-    <meta name="title" content="widgets | Home of creators">
+    <title>Introduction | Home of creators</title>
+    <meta name="title" content="Introduction | Home of creators">
+    <meta name="description" content="RocksBot is a Discord Bot that acts as an integration layer between Discord platform and CreatorsHub instance." />
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://docs.license.rocks/tags/widgets/">
-    <meta property="og:title" content="widgets | Home of creators">
+    <meta property="og:url" content="https://docs.license.rocks/rocksbot/intro/">
+    <meta property="og:title" content="Introduction | Home of creators">
+    <meta property="og:description" content="RocksBot is a Discord Bot that acts as an integration layer between Discord platform and CreatorsHub instance.">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://docs.license.rocks/tags/widgets/">
-    <meta property="twitter:title" content="widgets | Home of creators">
+    <meta property="twitter:url" content="https://docs.license.rocks/rocksbot/intro/">
+    <meta property="twitter:title" content="Introduction | Home of creators">
+    <meta property="twitter:description" content="RocksBot is a Discord Bot that acts as an integration layer between Discord platform and CreatorsHub instance.">
     
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
@@ -193,32 +196,165 @@
                 <div id="docs-sidebar-right-toggle"></div>
                
                 <!-- Page content  -->
-<doc-anchor-target id="tag-widgets" class="break-words">
+<doc-anchor-target id="introduction" class="break-words">
     <h1>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#tag-widgets">#</doc-anchor-trigger>
-        <span>Tag: widgets</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#introduction">#</doc-anchor-trigger>
+        <span>Introduction</span>
     </h1>
 </doc-anchor-target>
-<p>See all <a href="/tags/">tags</a>.</p>
-<a class="no-link mb-6 overflow-hidden border border-gray-200 rounded-lg md:flex dark:border-dark-700 hover:border-gray-400 dark:hover:border-dark-450" href="/widgets/intro/">
-    <div class="relative flex-shrink-0 bg-gray-300 md:w-5/12 pb-9/16 md:pb-0 dark:bg-dark-450">
-        <img class="absolute object-cover w-full h-full" src="/static/tokens-docs.png" />
+<div class="-mt-3 mb-12 flex flex-wrap text-sm text-gray-400 dark:text-dark-350">
+    <div class="flex items-center">
+        <div>By</div>
+        <div class="ml-2 flex items-center">
+          <div class="flex-shrink-0 w-8 h-8 overflow-hidden rounded-full">
+            <a href="https://twitter.com/igorklepacki"><img class="object-cover" src="https://www.gravatar.com/avatar/52fe700bd9896cf0f90dd6bf26fede87?d=mp"/></a>
+          </div>
+          <div class="ml-1 whitespace-nowrap text-gray-500 dark:text-dark-350"><a href="https://twitter.com/igorklepacki">Igor Klepacki</a></div>
+        </div>
     </div>
-    <div class="p-6">
-        <div class="text-xs font-semibold text-blue-500 uppercase dark:text-blue-400">Widgets</div>
-        <div class="mt-2 text-lg font-semibold leading-snug text-gray-900 dark:text-white md:text-xl">CreatorsHub Widgets</div>
-        <div class="line-clamp-3"><p class="hidden mt-2 md:block">Would you like to showoff your NFTs on any website in the world? Try our widgets.</p></div>
+</div>
+
+<p><strong>RocksBot</strong> is a Discord Bot that acts as an integration layer between Discord platform and <strong>CreatorsHub</strong> instance.</p>
+<doc-anchor-target id="inviting-the-bot">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#inviting-the-bot">#</doc-anchor-trigger>
+        <span>Inviting the bot</span>
+    </h2>
+</doc-anchor-target>
+<p>Adding <strong>RocksBot</strong> to your guild isn&#x27;t complicated at all. All you need to do is either (find bot invite button in a panel?) or <a href="https://discord.com/api/oauth2/authorize?client_id=950680187627012136&amp;scope=applications.commands+bot&amp;permissions=8">click here</a>. The hyperlink in both scenarios should redirect to the Discord&#x27;s website with pop-up window informing about bot&#x27;s required permissions and interactive select menu.</p>
+<p>Choose your server in previously mentioned select menu and proceed. Now, after solving Discord&#x27;s CAPTCHA, the bot should be visible on the members list of your guild <span class="docs-emoji">&#x1F942;</span>.</p>
+<doc-anchor-target id="verifying--connecting">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#verifying--connecting">#</doc-anchor-trigger>
+        <span>Verifying &amp; connecting</span>
+    </h2>
+</doc-anchor-target>
+<p>In order to prevent spam and malicious usage, there is user friendly mechanism that ensures us that nothing wrong is going on <span class="docs-emoji">&#x1F64F;</span></p>
+<div class="flex mb-6">
+    <div class="flex-shrink-0 w-1 rounded-tl rounded-bl bg-blue-300"></div>
+    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-blue-300" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3">
+<p>the <code v-pre>/verify</code> command can only be used by guild members with either <strong>Administrator</strong> permission or <strong>Guild Owner</strong> status.</p>
+        </div>
     </div>
-</a>
+</div>
+<p>To start the verification, please navigate to any channel where bot has permissions to view messages, type <code v-pre>/verify</code> in chat box input and follow further instructions. The auto-suggestions window should pop up from the top of the chat input.</p>
+<p>Now, the <code v-pre>/verify</code> command accepts two parameters:</p>
+<ul>
+<li><code v-pre>creators-hub-url</code>, which is base URL<a id="fnref:1" href="#fn:1" class="footnote-ref"><sup>1</sup></a> of your <strong>CreatorsHub</strong> instance.</li>
+<li><code v-pre>creators-hub-secret</code>, which is secret key used for verification that you&#x27;re authorized to connect the <strong>RocksBot</strong> with <strong>CreatorsHub</strong>. The secret key can be obtained from <a href="https://license.rocks">license.rocks</a> support team after setting up the instance.</li>
+</ul>
+<div class="flex mb-6">
+    <div class="flex-shrink-0 w-1 rounded-tl rounded-bl bg-gray-500 dark:bg-dark-400"></div>
+    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-gray-500 dark:text-dark-400" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3">
+            <h5><span class="docs-emoji">&#x1F4A1;</span> <strong>Tip</strong></h5>
+<p>when typing command parameters, press <kbd>tab</kbd> to quickly navigate cursor to the next parameter.</p>
+        </div>
+    </div>
+</div>
+<p>Simply pass these parameters, then click <kbd>enter</kbd> to submit the command. The bot should respond with one of these statuses:</p>
+<ul>
+<li><span class="docs-emoji">&#x1F7E9;</span> green colored embed message, which description would be: <em>&quot;Successfully verified this guild&quot;</em> . From now on, your guild is verified <span class="docs-emoji">&#x1F942;</span></li>
+<li><span class="docs-emoji">&#x1F7E5;</span> red colored one with: <em>&quot;Could not verify this guild&quot;</em>. In most cases, the reason for failure is invalid <code v-pre>creators-hub-secret</code>.</li>
+</ul>
+<div class="flex mb-6">
+    <div class="flex-shrink-0 w-1 rounded-tl rounded-bl bg-blue-500 dark:bg-blue-400"></div>
+    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-blue-500 dark:text-blue-400" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3">
+<p>server verification is one time action - once you verify your guild, you don&#x27;t need to do it again!</p>
+        </div>
+    </div>
+</div>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn:1">
+<p><em>the base URL is nothing else but link to the website, without any subpages or query parameters. For example, if my <strong>CreatorsHub</strong> instance is available on the <code v-pre>marketplace.my-super-cool-domain.com</code>, it is the base URL</em><a href="#fnref:1" class="footnote-back-ref">&#8617;</a></p>
+</li>
+</ol>
+</div>
 
 
+<div class="flex items-center mt-6 mb-6">
+    <span>
+        <a href="/tags/">
+            <svg class="inline-block -mb-px mr-1.5 text-blue-500 dark:text-blue-400" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" overflow="visible" fill="currentColor"><g><path d="M21.3 9.88l-8.59-8.59C12.52 1.11 12.27 1 12 1H2c-.55 0-1 .45-1 1v10c0 .27.11.52.29.71l8.59 8.58c.57.57 1.32.88 2.12.88s1.55-.31 2.12-.88l7.17-7.17a3.009 3.009 0 00.01-4.24zm-1.42 2.82l-7.17 7.17c-.39.39-1.02.39-1.42 0L3 11.59V3h8.59l8.29 8.29c.39.39.39 1.03 0 1.41z" /><path d="M7.01 6C6.45 6 6 6.45 6 7s.45 1 1 1 1-.45 1-1-.44-1-.99-1z" /></g></svg>
+        </a>
+        <span class="mr-2"><a href="/tags/discord/" class="no-link inline-flex items-center justify-center font-medium leading-none whitespace-nowrap text-blue-500 dark:text-blue-400 border border-blue-500 dark:border-blue-400 hover:bg-blue-100 dark:hover:bg-transparent dark:hover:border-blue-200 dark:hover:text-blue-200 transition-colors duration-200 ease-out h-6 px-2 text-xs rounded-md">
+    <span>discord</span>
+</a></span>
+        <span class="mr-2"><a href="/tags/nft/" class="no-link inline-flex items-center justify-center font-medium leading-none whitespace-nowrap text-blue-500 dark:text-blue-400 border border-blue-500 dark:border-blue-400 hover:bg-blue-100 dark:hover:bg-transparent dark:hover:border-blue-200 dark:hover:text-blue-200 transition-colors duration-200 ease-out h-6 px-2 text-xs rounded-md">
+    <span>nft</span>
+</a></span>
+        <span class="mr-2"><a href="/tags/integration/" class="no-link inline-flex items-center justify-center font-medium leading-none whitespace-nowrap text-blue-500 dark:text-blue-400 border border-blue-500 dark:border-blue-400 hover:bg-blue-100 dark:hover:bg-transparent dark:hover:border-blue-200 dark:hover:text-blue-200 transition-colors duration-200 ease-out h-6 px-2 text-xs rounded-md">
+    <span>integration</span>
+</a></span>
+    </span>
+</div>
 
 
                 <!-- Required only on API pages -->
                 <doc-toolbar-member-filter-no-results />
             </div>
 
-            
+            <div class="flex flex-wrap items-center justify-between mt-14">
+    <a class="my-2.5 inline-flex items-center text-sm whitespace-nowrap text-blue-500 dark:text-blue-400 hover:text-blue-700 hover:underline" href="https://github.com/LicenseRocks/ch-docs/blob/main/rocksbot/intro.md" target="_blank" rel="noopener">
+        <svg class="mr-1.5" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M20 12c-.55 0-1 .45-1 1v7c0 .55-.45 1-1 1H4c-.55 0-1-.45-1-1V6c0-.55.45-1 1-1h7c.55 0 1-.45 1-1s-.45-1-1-1H4C2.35 3 1 4.35 1 6v14c0 1.65 1.35 3 3 3h14c1.65 0 3-1.35 3-3v-7c0-.55-.45-1-1-1z" /><path d="M22.21 1.79c-1.18-1.18-3.24-1.18-4.41 0l-9.5 9.5c-.13.13-.22.29-.26.46l-1 4c-.08.34.01.7.26.95.18.2.44.3.7.3.08 0 .16-.01.24-.03l4-1c.18-.04.34-.13.46-.26l9.5-9.5c1.22-1.22 1.22-3.2.01-4.42zm-1.42 3l-9.3 9.3-2.11.53.53-2.11 9.3-9.3c.42-.42 1.16-.42 1.59 0 .43.43.43 1.15-.01 1.58z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
+        <span>Edit this page</span>
+    </a>
+
+    <!--<p class="my-2.5 text-gray-500 dark:text-dark-350 text-sm">Last updated on <strong>2021-03-14</strong> by <strong>Geoffrey McGill</strong></p>-->
+</div>
+
+<nav class="flex mt-14">
+    <div class="w-1/2">
+        <a class="px-5 py-4 h-full flex items-center break-all md:break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-l-lg transition-colors duration-150 relative hover:z-5" href="/megaflow/intro/">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
+            <span>
+                <span class="block text-xs font-normal text-gray-400 dark:text-dark-400">Previous</span>
+                <span class="block mt-1">Basics</span>
+            </span>
+        </a>
+    </div>
+
+    <div class="w-1/2">
+        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-all md:break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-r-lg transition-colors duration-150 relative hover:z-5" href="/rocksbot/refresh/">
+            <span>
+                <span class="block text-xs font-normal text-right text-gray-400 dark:text-dark-400">Next</span>
+                <span class="block mt-1">Refreshing server info</span>
+            </span>
+            <svg xmlns="http://www.w3.org/2000/svg" class="ml-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
+        </a>
+    </div>
+</nav>
 
 
         </main>
@@ -264,6 +400,6 @@
 
         <div id="docs-overlay-target"></div>
 
-        <script>window.__DOCS__ = { "title": "widgets", icon: "file", hasPrism: false, hasMermaid: false, hasMath: false }</script>
+        <script>window.__DOCS__ = { "title": "Introduction", icon: "file", hasPrism: false, hasMermaid: false, hasMath: false }</script>
     </body>
 </html>
