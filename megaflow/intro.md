@@ -196,6 +196,16 @@ const onSubmit = (data) => {
 
 Submitting is executed by a function `onSubmit`, this function firstly, declares constant variable `currentState` which contains previously passed `wizardData` and `data` collected from current step. Then `wizardData` is updated end form displays next step or executes `onFinish` function.
 
+## Workflow's features ⛲:
+
+### Editing Markup options in workflows
+
+In Megaflow is implemented a markup for some inputs through workflow. For example in secret phrase, it is possible to type text, which is bold, italic and even linked. To achieve the wanted result, just follow rules described below:
+
+- Italic - `*some italic text*` - italic text between \*
+- Bold - `**some bold text**` - bold text between \*\*
+- Links - `[linked text](https://www.licenserocks.de)` - link in format `[linked text](url)`
+
 ## How to create a correct schema? 🙋‍♂️
 
 As it can be seen in `How it works` part, schema should be divided into `steps` and then `rows`. It is the way how it is rendered and displayed, depending on the content of each row. MegaFlow using `Wizard` component shows each row content.
