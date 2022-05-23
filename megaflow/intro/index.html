@@ -26,12 +26,12 @@
     
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="/resources/css/retype.css?v=1.11.2.703154025961" rel="stylesheet" data-turbo-track="reload" />
+    <link href="/resources/css/retype.css?v=1.11.2.706657839595" rel="stylesheet" data-turbo-track="reload" />
 
-    <script type="text/javascript" src="/resources/js/config.js?v=1.11.2.703154025961" defer data-turbo-track="reload"></script>
+    <script type="text/javascript" src="/resources/js/config.js?v=1.11.2.706657839595" defer data-turbo-track="reload"></script>
     <script type="text/javascript" src="/resources/js/retype.js?v=1.11.2" defer data-turbo-track="reload"></script>
-    <script id="lunr-js" type="text/javascript" src="/resources/js/lunr.js?v=1.11.2.703154025961" defer></script>
-    <script id="prism-js" type="text/javascript" src="/resources/js/prism.js?v=1.11.2.703154025961" defer></script>
+    <script id="lunr-js" type="text/javascript" src="/resources/js/lunr.js?v=1.11.2.706657839595" defer></script>
+    <script id="prism-js" type="text/javascript" src="/resources/js/prism.js?v=1.11.2.706657839595" defer></script>
 </head>
     <body>
         <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -416,6 +416,24 @@ const onSubmit = (data) =&gt; {
 };</code></pre>
 </doc-codeblock></div>
 <p>Submitting is executed by a function <code v-pre>onSubmit</code>, this function firstly, declares constant variable <code v-pre>currentState</code> which contains previously passed <code v-pre>wizardData</code> and <code v-pre>data</code> collected from current step. Then <code v-pre>wizardData</code> is updated end form displays next step or executes <code v-pre>onFinish</code> function.</p>
+<doc-anchor-target id="workflow-s-features">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#workflow-s-features">#</doc-anchor-trigger>
+        <span>Workflow&#x27;s features <span class="docs-emoji">&#x26F2;</span>:</span>
+    </h2>
+</doc-anchor-target>
+<doc-anchor-target id="editing-markup-options-in-workflows">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#editing-markup-options-in-workflows">#</doc-anchor-trigger>
+        <span>Editing Markup options in workflows</span>
+    </h3>
+</doc-anchor-target>
+<p>In Megaflow is implemented a markup for some inputs through workflow. For example in secret phrase, it is possible to type text, which is bold, italic and even linked. To achieve the wanted result, just follow rules described below:</p>
+<ul>
+<li>Italic - <code v-pre>*some italic text*</code> - italic text between *</li>
+<li>Bold - <code v-pre>**some bold text**</code> - bold text between **</li>
+<li>Links - <code v-pre>[linked text](https://www.licenserocks.de)</code> - link in format <code v-pre>[linked text](url)</code></li>
+</ul>
 <doc-anchor-target id="how-to-create-a-correct-schema">
     <h2>
         <doc-anchor-trigger class="header-anchor-trigger" to="#how-to-create-a-correct-schema">#</doc-anchor-trigger>
