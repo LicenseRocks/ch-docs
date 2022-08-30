@@ -31,11 +31,11 @@ with JSON payload containing following properties
 
 where:
 
-    - `pdfUrl` is an URL pointing to the PDF file that would be filled with data from our side. NOTE: This property is **optional**, in other words, if no `pdfUrl` is provided, the template to fill is retrieved from instance settings.
+  - `pdfUrl` is an URL pointing to the PDF file that would be filled with data from our side. NOTE: This property is **optional**, in other words, if no `pdfUrl` is provided, the template to fill is retrieved from instance settings.
 
-    - `nftId` is simply an identifier of NFT basing on which data will be put into appropriate text fields in PDF form
+  - `nftId` is simply an identifier of NFT basing on which data will be put into appropriate text fields in PDF form
 
-    - `save` is also an **optional** parameter and it is responsible for saving generated contract on our side and attaching it to the existing NFT in the database instead of just returning binary data from the endpoint
+  - `save` is also an **optional** parameter and it is responsible for saving generated contract on our side and attaching it to the existing NFT in the database instead of just returning binary data from the endpoint
 
 ## Creating PDF template for sales contracts
 
@@ -47,8 +47,9 @@ Here’s [brilliant article from Adobe introducing to the forms in PDF document]
 
 After getting familiar with article linked above, the only remark is fact, that you have to name text fields in form exactly as one of available names in order to have corresponding values put into each gap. The values’ names are self-explanatory and the full list is here:
 
-    - `nftname` - text field named exactly like this will be filled with name of the NFT
-    - `creatorsname` - text field named exactly like this will be filled with name of the NFT owner
+  - `nftname` - text field named exactly like this will be filled with name of the NFT
+  
+  - `creatorsname` - text field named exactly like this will be filled with name of the NFT owner
 
 _feel free to contact us by mail (hello@license.rocks) if there is any NFT property that is not present on the list and you want to use it 🚀_
 
@@ -56,12 +57,12 @@ _feel free to contact us by mail (hello@license.rocks) if there is any NFT prope
 
 To sum everything up, let’s see what example user story would look like 👀
 
-    1. The user creates PDF with some fancy shapes and illustrations, e.g. circle and triangle.
-    2. The user wants to put specific NFT name into the triangle and NFT creators name into the circle
-    3. User creates form in PDF editor of choice *(e.g. Adobe Acrobat)* and puts two text fields into the document, one in the triangle and the second in the circle
-    4. User names first text field exactly `nftname` and the second one exactly `creatorsname`
-    5. User saves the PDF and uploads the file via CreatorsHub instance settings (**Settings > General Settings > Contracts**)
-    6. User sends POST HTTP request to
+  1. The user creates PDF with some fancy shapes and illustrations, e.g. circle and triangle.
+  2. The user wants to put specific NFT name into the triangle and NFT creators name into the circle
+  3. User creates form in PDF editor of choice *(e.g. Adobe Acrobat)* and puts two text fields into the document, one in the triangle and the second in the circle
+  4. User names first text field exactly `nftname` and the second one exactly `creatorsname`
+  5. User saves the PDF and uploads the file via CreatorsHub instance settings (**Settings > General Settings > Contracts**)
+  6. User sends POST HTTP request to
         ```
         https://{INSTANCE_URL}/api/generateSalesContract
         ```
