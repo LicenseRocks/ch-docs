@@ -7,6 +7,9 @@ authors:
     email: artur@licenserocks.de
     avatar: ./static/artur.jpeg
     link: https://twitter.com/ArtiChmaro
+  - name: Adam Leszczyński
+    link: https://alsd.app 
+    avatar: https://avatars.githubusercontent.com/u/20825919 
 ---
 # Authentication
 
@@ -33,3 +36,8 @@ curl --location --request POST '{INSTANCE_URL}/api/public/batchMint' \
    },
 ]'
 ```
+
+## Obtaining the API Token
+
+The endpoint is secured by the API Token attached to the User who generated the token.
+In order to generate the token log in to our Instance, go to `Settings`, find `API Access` under `Settings` list, go to the `Marketplace API` tab and click the `Generate token` button or grab the Token if you already generated one.
