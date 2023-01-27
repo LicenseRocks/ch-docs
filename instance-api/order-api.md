@@ -11,9 +11,6 @@ authors:
 
 # Order API
 
-Created: December 21, 2022 12:22 PM
-Last Edited Time: December 21, 2022 12:26 PM
-
 Our Instance's API brings two secure, API Token protected endpoints which can:
 - get the details about the Orders.
 - create Orders within it, setting its status to `paid`, which will trigger the transfer of the NFT to the buyer.
