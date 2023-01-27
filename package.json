@@ -10,8 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "retype": "^0.0.1",
-    "retypeapp": "^2.4.0",
-    "retypeapp-linux-x64": "^1.11.2"
+    "retype": "^0.2.0",
+    "retypeapp": "^2.4.0"
   }
 }
