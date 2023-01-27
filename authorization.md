@@ -8,7 +8,6 @@ authors:
     avatar: ./static/artur.jpeg
     link: https://twitter.com/ArtiChmaro
   - name: Adam Leszczyński
-    link: https://alsd.app 
     avatar: https://avatars.githubusercontent.com/u/20825919 
 ---
 # Authentication

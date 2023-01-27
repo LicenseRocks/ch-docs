@@ -5,7 +5,6 @@ order: 6
 authors:
 - name: Adam Leszczyński
   email: adam.leszczynsky@gmail.com
-  link: https://alsd.app
   avatar: https://avatars.githubusercontent.com/u/20825919
 ---
 
