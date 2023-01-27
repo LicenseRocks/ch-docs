@@ -4,7 +4,7 @@ tags: [order, nft, purchase, read, api, token]
 order: 6
 authors:
 - name: Adam Leszczyński
-  email: adam.leszczynsky@gmail.com
+  email: adam@licenserocks.de
   avatar: https://avatars.githubusercontent.com/u/20825919
 ---
 

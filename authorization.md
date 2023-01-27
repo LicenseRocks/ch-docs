@@ -8,6 +8,7 @@ authors:
     avatar: ./static/artur.jpeg
     link: https://twitter.com/ArtiChmaro
   - name: Adam Leszczyński
+    email: adam@licenserocks.de
     avatar: https://avatars.githubusercontent.com/u/20825919 
 ---
 # Authentication
