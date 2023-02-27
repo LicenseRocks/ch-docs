@@ -39,13 +39,13 @@ GET https://{INSTANCE_URL}/api/public/user/{USER_ID}/avatar
 To modify other user's avatar:
 
 ```
-PUT https://{INSTANCE_URL}/api/public/user/{USER_ID}/updateAvatarFile
+PUT https://{INSTANCE_URL}/api/public/user/{USER_ID}/profile/updateAvatarFile
 ```
 
 To modify your avatar:
 
 ```
-PUT https://{INSTANCE_URL}/api/public/user/me/updateAvatarFile
+PUT https://{INSTANCE_URL}/api/public/user/me/profile/updateAvatarFile
 ```
 
 !!!info Note bout the fields
@@ -77,13 +77,13 @@ Unlike for other endpoints, for this one the avatar file does not have to be `im
 To modify other user's avatar:
 
 ```
-PUT https://{INSTANCE_URL}/api/public/user/{USER_ID}/avatar
+PUT https://{INSTANCE_URL}/api/public/user/{USER_ID}/profile/avatar
 ```
 
 To modify your avatar:
 
 ```
-PUT https://{INSTANCE_URL}/api/public/user/me/avatar
+PUT https://{INSTANCE_URL}/api/public/user/me/profile/avatar
 ```
 
 ---
@@ -109,13 +109,13 @@ Currently the best image format we support is `jpeg`. It is recommended for file
 To modify other user's avatar:
 
 ```
-PUT https://{INSTANCE_URL}/api/public/user/{USER_ID}/updateAvatarBytes
+PUT https://{INSTANCE_URL}/api/public/user/{USER_ID}/profile/updateAvatarBytes
 ```
 
 To modify your avatar:
 
 ```
-PUT https://{INSTANCE_URL}/api/public/user/me/updateAvatarBytes
+PUT https://{INSTANCE_URL}/api/public/user/me/profile/updateAvatarBytes
 ```
 
 ---

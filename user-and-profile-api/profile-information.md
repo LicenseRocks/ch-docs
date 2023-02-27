@@ -27,13 +27,13 @@ All requests sent to our User and Profile API (including the one you're viewing 
 To get other user's profile info
 
 ```
-GET https://{INSTANCE_URL}/api/public/user/{USER_ID}/info
+GET https://{INSTANCE_URL}/api/public/user/{USER_ID}/profile/info
 ```
 
 To get your profile info
 
 ```
-GET https://{INSTANCE_URL}/api/public/user/me/info
+GET https://{INSTANCE_URL}/api/public/user/me/profile/info
 ```
 
 ---
@@ -97,13 +97,13 @@ GET https://{INSTANCE_URL}/api/public/user/me/info
 To update other user's profile info
 
 ```
-PUT https://{INSTANCE_URL}/api/public/user/{USER_ID}/info
+PUT https://{INSTANCE_URL}/api/public/user/{USER_ID}/profile/info
 ```
 
 To update your profile info
 
 ```
-PUT https://{INSTANCE_URL}/api/public/user/me/info
+PUT https://{INSTANCE_URL}/api/public/user/me/profile/info
 ```
 
 ---
