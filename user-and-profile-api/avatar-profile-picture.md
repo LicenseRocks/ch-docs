@@ -109,13 +109,13 @@ Currently the best image format we support is `jpeg`. It is recommended for file
 To modify other user's avatar:
 
 ```
-PUT https://{INSTANCE_URL}/api/public/user/{USER_ID}/avatarBytes
+PUT https://{INSTANCE_URL}/api/public/user/{USER_ID}/updateAvatarBytes
 ```
 
 To modify your avatar:
 
 ```
-PUT https://{INSTANCE_URL}/api/public/user/me/avatarBytes
+PUT https://{INSTANCE_URL}/api/public/user/me/updateAvatarBytes
 ```
 
 ---
