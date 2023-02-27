@@ -24,9 +24,19 @@ All requests sent to our User and Profile API (including the one you're viewing 
 
 ## Get user's current profile information
 
+To get other user's profile info
+
 ```
 GET https://{INSTANCE_URL}/api/public/user/{USER_ID}/info
 ```
+
+To get your profile info
+
+```
+GET https://{INSTANCE_URL}/api/public/user/me/info
+```
+
+---
 
 ```json Response
 {
@@ -84,9 +94,19 @@ GET https://{INSTANCE_URL}/api/public/user/{USER_ID}/info
 
 ## Update user's profile
 
+To update other user's profile info
+
 ```
 PUT https://{INSTANCE_URL}/api/public/user/{USER_ID}/info
 ```
+
+To update your profile info
+
+```
+PUT https://{INSTANCE_URL}/api/public/user/me/info
+```
+
+---
 
 ```json Payload (application/json)
 {

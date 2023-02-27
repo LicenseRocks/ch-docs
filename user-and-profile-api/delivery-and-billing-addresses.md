@@ -28,9 +28,19 @@ All requests sent to our User and Profile API (including the one you're viewing 
 
 ### Get user's all delivery addresses
 
+To get other user's delivery addresses:
+
 ```
 GET https://{INSTANCE_URL}/api/public/user/{USER_ID}/deliveryAddresses
 ```
+
+To get your delivery addresses:
+
+```
+GET https://{INSTANCE_URL}/api/public/user/me/deliveryAddresses
+```
+
+---
 
 ```json Response
 {
@@ -181,9 +191,19 @@ After deleting delivery address it will **no longer appear in results of [GET de
 
 ### Get user's all billing addresses
 
+To get other user's delivery addresses:
+
 ```
 GET https://{INSTANCE_URL}/api/public/user/{USER_ID}/billingAddresses
 ```
+
+To get your billing addresses
+
+```
+GET https://{INSTANCE_URL}/api/public/user/me/billingAddresses
+```
+
+---
 
 ```json Response
 {
