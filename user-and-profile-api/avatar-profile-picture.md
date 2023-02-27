@@ -25,7 +25,7 @@ All requests sent to our User and Profile API (including the one you're viewing 
 ## Get user's current avatar URL
 
 ```
-GET https://{INSTANCE_URL}/api/public/user/{USER_ID}/avatar
+GET https://{INSTANCE_URL}/api/public/user/{USER_ID}/profile/avatar
 ```
 
 ```json Response
