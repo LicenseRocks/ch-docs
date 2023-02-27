@@ -34,11 +34,59 @@ GET https://{INSTANCE_URL}/api/public/user/{USER_ID}/avatar
 }
 ```
 
-## Update user's current avatar
+## Update user's current avatar with form data
+
+To modify other user's avatar:
+
+```
+PUT https://{INSTANCE_URL}/api/public/user/{USER_ID}/updateAvatarFile
+```
+
+To modify your avatar:
+
+```
+PUT https://{INSTANCE_URL}/api/public/user/me/updateAvatarFile
+```
+
+!!!info Note bout the fields
+Avatar field should be named `avatar`
+!!!
+
+---
+
+```Payload (multipart/form-data)
+--
+Content-Disposition: form-data; name="avatar"; filename="andrew_ryan.webp"
+Content-Type: image/webp
+[DATA]
+----
+```
+
+!!!success Providing avatar format and URL
+Unlike for other endpoints, for this one the avatar file does not have to be `image/jpeg` type :rocket:
+!!!
+
+```json Response
+{
+  "avatarUrl": "https://creatorshub.s3.eu-central-1.amazonaws.com/1677074922600/userAvatars/6/avatar.jpg"
+}
+```
+
+## Update user's current avatar with URL
+
+To modify other user's avatar:
 
 ```
 PUT https://{INSTANCE_URL}/api/public/user/{USER_ID}/avatar
 ```
+
+To modify your avatar:
+
+```
+PUT https://{INSTANCE_URL}/api/public/user/me/avatar
+```
+
+---
 
 ```json Payload (application/json)
 {
@@ -47,7 +95,37 @@ PUT https://{INSTANCE_URL}/api/public/user/{USER_ID}/avatar
 ```
 
 !!!info Providing avatar format and URL
-Currently the best image format we support is `jpeg`. It is recommended for file to be easily convertible to following format.
+Currently the best image format we support is `jpeg`. It is recommended for file to be easily convertible to following format since it is hard to detect true type of it programatically.
+!!!
+
+```json Response
+{
+  "avatarUrl": "https://creatorshub.s3.eu-central-1.amazonaws.com/1677074922600/userAvatars/6/avatar.jpg"
+}
+```
+
+## Update user's current avatar with binary data
+
+To modify other user's avatar:
+
+```
+PUT https://{INSTANCE_URL}/api/public/user/{USER_ID}/updateAvatarBytes
+```
+
+To modify your avatar:
+
+```
+PUT https://{INSTANCE_URL}/api/public/user/me/updateAvatarBytes
+```
+
+---
+
+```Payload (image/jpeg)
+<raw source of image>
+```
+
+!!!info Providing avatar format and URL
+Currently the best image format we support is `jpeg`. It is recommended for file to be easily convertible to following format since it is hard to detect true type of it programatically.
 !!!
 
 ```json Response
