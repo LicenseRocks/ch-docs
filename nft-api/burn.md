@@ -32,3 +32,12 @@ This endpoint will burn all of the NFTs that you currently own!
   }
 ]
 ```
+
+## Usecases 
+
+Burning an NFT can serve as a mechanism to claim physical goods or assets. For example, a collectible NFT might entitle its owner to redeem: 
+- limited edition merchandise item, 
+- concert ticket, 
+- real-world collectible
+
+By validating the NFT burn, developers ensure a secure and traceable process for delivering tangible rewards to token holders. 
