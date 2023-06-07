@@ -73,7 +73,7 @@ Consider storing NFT id on your end. It can be useful for future calls to our AP
 Every NFT should contain cover file. Below endpoint allows to set it. File might be uploaded to S3 or Arweave
 
 ```
-POST https://{INSTANCE_URL}/api/public/nft/{nftId}/coverfile
+POST https://{INSTANCE_URL}/api/public/nft/{nftId}/coverFile
 ```
 
 !!!warning
