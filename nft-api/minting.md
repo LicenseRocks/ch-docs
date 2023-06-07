@@ -110,7 +110,7 @@ Each token ID to may represent different token type, which may have its own meta
 Below endpoint allows to update them. You may treat metadata as JSON object.
 
 ```
-POST https://{INSTANCE_URL}/api/public/metaFile
+POST https://{INSTANCE_URL}/api/public/nft/{nftId}/metaFile
 ```
 
 !!!warning
