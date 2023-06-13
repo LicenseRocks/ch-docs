@@ -149,6 +149,21 @@ PUT https://{INSTANCE_URL}/api/externalOrders/updateCheckoutUrl?orderId=${orderI
 !!!
 ---
 
+## Wert.io as a provider
 
+Create analogically the order as above, but with ```"paymentMethod":"wert"```
 
+Use below endpoint to get Wert data:
+```
+GET https://{INSTANCE_URL}/api/public/order/wertIo?orderId=${orderId}
+```
+!!!warning
+Response data use in a Wert Modal
+!!!
 
+```React
+import WertModule from "@wert-io/module-react-component";
+.
+.
+<WertModule options={wertOptions} />
+```
