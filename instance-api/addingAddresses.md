@@ -28,6 +28,8 @@ POST https://{INSTANCE_URL}/api/public/deliveryAddress
 ```
 ## Body of the request
 
+No matter if you use the billing or delivery address endpoint, the body of the request is the same.
+
 ```json Payload (application/json)
 {
   "street": "street 123",
