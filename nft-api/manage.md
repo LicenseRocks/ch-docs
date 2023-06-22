@@ -22,7 +22,7 @@ POST https://{INSTANCE_URL}/api/public/nft/{nftId}/transfer
 ```
 
 !!!warning
-this request must contain Authorization header with your token
+this request must contain [Authorization](/authorization.md) header with your token.
 !!!
 
 ```json Payload (application/json)
